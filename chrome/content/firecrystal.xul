@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://firecrystal/content/firecrystal.css"?>
+
+<overlay id="sample" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://firecrystal/content/firecrystal.js" />
+	<statusbar id="status-bar">
+        <statusbarpanel id="FireCrystal_StatusBar" onmousedown="FireCrystal.onToolbarIconClick();">
+            <image id="FireCrystal_StatusIcon" tooltiptext="FireCrystal"/>
+            <label id="FireCrystal_StatusText" tooltiptext="FireCrystal">FireCrystal</label>
+        </statusbarpanel>
+    </statusbar>
+</overlay>

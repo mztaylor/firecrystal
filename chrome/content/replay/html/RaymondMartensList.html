@@ -1,0 +1,121 @@
+<html>
+<head>
+<script src="listCollapse.js" type="text/javascript" language="javascript1.2"></script>
+</head>
+<body>
+	<style>
+	ul {
+		margin:0px 0px 0px 18px;
+		padding:0px;
+	}
+	li {
+		list-style-type:none;
+		margin:0px;
+		padding:0px;
+		border:0px;
+		line-height:14px;
+		background-image: url(images/more_to_come.gif);
+		background-position: top left;
+		background-repeat: repeat-y;
+	}
+	.liLastChild {
+		background-image: url(images/empty.gif);
+	}
+	.liBefore {
+		padding:0px;
+		margin:0px 2px 0px 0px;
+		padding:0px;
+		display:inline;
+	}
+	li .plus_minus {
+		margin-left:-18px;
+		padding:0px 0px 0px 0px;
+		border:0px;
+	}
+	</style>
+
+
+<ul id="someID">
+  <li>Test1
+    <ul>
+      <li>Test1.1
+        <ul>
+          <li>Test1.1.1
+          </li>
+
+          <li>Test1.1.2
+          </li>
+          <li>Test1.1.3
+          </li>
+          <li>Test1.1.4
+          </li>
+        </ul>
+      </li>
+      <li>Test1.2
+        <ul>
+          <li>Test1.2.1
+          </li>
+
+        </ul>
+      </li>
+      <li>Test1.3
+      </li>
+    </ul>
+  </li>
+  <li>Test2
+    <ul>
+      <li>Test2.1
+      </li>
+
+      <li>Test2.2
+      </li>
+      <li>Test2.3
+        <ul>
+          <li>Test2.3.1
+          </li>
+          <li>Test2.3.2
+          </li>
+          <li>Test2.3.3
+          </li>
+        </ul>
+
+      </li>
+    </ul>
+  </li>
+  <li>Test3a
+    <ul>
+      <li>Test3.1
+      </li>
+      <li>Test3.2
+      </li>
+      <li>Test3.3
+      </li>
+
+    </ul>
+  </li>
+  <li>Test4a
+    <ul>
+      <li>Test4.1
+      </li>
+      <li>Test4.2
+      </li>
+      <li>Test4.3
+      </li>
+      <li>Test4.4
+      </li>
+
+    </ul>
+  </li>
+
+<li>&lt;HTML&gt;<ul><li>&lt;HEAD&gt;</li></ul></li>
+</ul>
+<script type="text/javascript" language="javascript1.2"><!--
+
+
+compactMenu('someID',false,'<img src="images/plus_.gif" onclick="togglePlusMinusButton(this); return true;" class="plus_minus" />', true);
+
+setUpListTree('someID');
+
+//--></script>
+</body>
+</html>

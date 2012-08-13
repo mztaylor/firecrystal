@@ -1,0 +1,202 @@
+img {
+	border: 0px;
+}
+
+iframe#replayView {
+	width: 100%;
+	border: none;
+}
+
+body {
+	margin:0px;
+}
+table {
+	border-width: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	border-style: outset outset outset outset;
+	border-collapse: collapse;
+}
+table td {
+	border-width: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-style: hidden hidden hidden hidden;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+div#rail {
+	background-image: url('images/timeline/rail.png');
+	height: 20px;
+	width: 100%;
+}
+
+div#divider {
+	width:100%;
+	background-color: black;
+	height:1px;
+}
+div#timeline_divider {
+	width:100%;
+	background-color: darkgray;
+	height:20px;
+	width:1px;
+}
+td#timeline_rail {
+	background-color: #EEEEEE;
+	width:100%;
+}
+td#timeline_controls {
+	background-image: url('images/timeline/controls.png');
+}
+div#handle {
+	width: 15px;
+	height: 20px;
+	background-image: url('images/timeline/handle_idle.png');
+	position:relative;
+	z-index: 3;
+}
+div#handle.idle {
+	background-image: url('images/timeline/handle_idle.png');
+}
+div#handle.hover {
+	background-image: url('images/timeline/handle_hover.png');
+}
+div#handle.clicked {
+	background-image: url('images/timeline/handle_clicked.png');
+}
+/*
+CALLOUT BOX
+*/
+div#callout_div {
+	position:absolute;
+	left: 10px;
+	top:10px;
+	-moz-opacity: 0.85;
+}
+table#callout {
+	border-width: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+table#callout td {
+	border-width: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	padding:0px 0px 0px 0px;
+}
+table#callout td.top_left {
+	background-image: url(images/timeline/callout_box/top_left.png);
+	background-repeat: no-repeat;
+	width: 17px;
+	height:17px;
+}
+table#callout td.top {
+	background-image: url(images/timeline/callout_box/top.png);
+	background-repeat: repeat-x;
+	height:17px;
+}
+table#callout td.top_right {
+	background-image: url(images/timeline/callout_box/top_right.png);
+	background-repeat: no-repeat;
+	width: 17px;
+	height:17px;
+}
+table#callout td.left {
+	background-image: url(images/timeline/callout_box/left.png);
+	background-repeat: repeat-y;
+	width:17px;
+	height:1px;
+}
+table#callout td.center {
+	background-color: #EFEFEF;
+}
+table#callout td.right {
+	background-image: url(images/timeline/callout_box/right.png);
+	background-repeat: repeat-y;
+	width:17px;
+	height:1px;
+}
+table#callout td.bottom_left {
+	background-image: url(images/timeline/callout_box/bottom_left.png);
+	background-repeat: no-repeat;
+	width: 17px;
+	height:17px;
+}
+table#callout td.bottom {
+	background-image: url(images/timeline/callout_box/bottom.png);
+	background-repeat: repeat-x;
+	height:17px;
+}
+table#callout td.bottom_right {
+	background-image: url(images/timeline/callout_box/bottom_right.png);
+	background-repeat: no-repeat;
+	width: 17px;
+	height:17px;
+}
+table#callout div.dongle {
+	background-image: url(images/timeline/callout_box/dongle.png);
+	background-repeat: no-repeat;
+	width: 31px;
+	height:45px;
+	position:relative;
+	left:0px;
+}
+table#callout iframe {
+	border: 0px;
+	width: 300px;
+	height:175px;
+}
+/*
+TIMELINE MARKERS
+*/
+
+a:focus
+{
+-moz-outline-style: none;
+}
+td#timeline_rail div {
+	height:20px;
+	background-repeat: no-repeat;
+}
+td#timeline_rail div.faded {
+	-moz-opacity: 0.3;
+}
+td#timeline_rail div.domChange {
+	width: 5px;
+	background-image: url('images/timeline/dom_change_marker.png');
+}
+td#timeline_rail div.initialDOM {
+	width: 5px;
+	background-image: url('images/timeline/initial_dom_marker.png');
+}
+td#timeline_rail div.input_left_mouse_down {
+	width: 14px;
+	background-image: url('images/timeline/input/left_mouse_down.png');
+}
+td#timeline_rail div.input_left_mouse_up {
+	width: 14px;
+	background-image: url('images/timeline/input/left_mouse_up.png');
+}
+td#timeline_rail div.input_right_mouse_down {
+	width: 14px;
+	background-image: url('images/timeline/input/right_mouse_down.png');
+}
+td#timeline_rail div.intput_right_mouse_up {
+	width: 14px;
+	background-image: url('images/timeline/input/right_mouse_up.png');
+}
+td#timeline_rail div.input_key_down {
+	width: 17px;
+	background-image: url('images/timeline/input/key_down.png');
+}
+td#timeline_rail div.input_key_up {
+	width: 17px;
+	background-image: url('images/timeline/input/key_up.png');
+}
+td#timeline_rail div.input_resize {
+	width: 14px;
+	background-image: url('images/timeline/input/resize.png');
+}
+td#timeline_rail div.input_scroll {
+	width: 12px;
+	background-image: url('images/timeline/input/scroll.png');
+}

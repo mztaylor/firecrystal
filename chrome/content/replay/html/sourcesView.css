@@ -1,0 +1,115 @@
+div#fileName {
+	width:100%;
+	background-color: #4F4F4D;
+	font: bold 14px arial;
+	color: #EEEEEE;
+}
+iframe {
+	width: 100%;
+	border:none;
+	margin:0px;
+	padding: 0px 0px 0px 0px;
+}
+body {
+	margin: 0px;
+}
+
+table {
+	width: 100%;
+	border-width: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	border-style: outset outset outset outset;
+	border-collapse: collapse;
+	margin:0px;
+	background-image: url('images/sourceBackground.png');
+}
+table td {
+	border-width: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-style: hidden hidden hidden hidden;
+	-moz-border-radius: 0px 0px 0px 0px;
+	margin:0px;
+}
+/*
+	DROP DOWN MENUS
+*/
+ul li a.hasRun {
+	background-color: #88C888 !important;
+	color: white !important;
+}
+ul li a.hasRun:hover {
+	background-color: #68A868 !important;
+	color: white !important;
+}
+
+ul li a.hasChangedDOM:hover {
+	background-color: #A8A868 !important;
+	color: white !important
+}
+ul li a.hasChangedDOM {
+	background-color: #C8C868 !important;
+	color: white !important;
+}
+tr#sourceListTR td {
+	background-color: #F7F7F9;
+}
+div#divider {
+	height: 1px;
+	background-color: #33332D;
+}
+#filelist {
+	margin: 0;
+	padding: 0;
+	z-index: 30;
+}
+
+#filelist li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+}
+
+#filelist li a {
+	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	background: #33332D;
+	color: #FAFAFA;
+	text-align: center;
+	text-decoration: none;
+}
+
+#filelist li a:hover {
+	color:black;
+	background: #9FB4CC;
+}
+
+#filelist div {
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #9FB4CC;
+	border: 1px solid #33332D;
+}
+
+#filelist div a {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #EAEBD8;
+	color: #2875DE;
+	font: 11px arial;
+}
+
+#filelist div a:hover {
+	background: #9FB4CC;
+	color: #FFF;
+}

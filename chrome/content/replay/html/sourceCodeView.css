@@ -1,0 +1,92 @@
+table.sourceTable {
+	width: 100%;
+	background-color: #DFDFDF;
+}
+table.sourceTable th {
+	background-color: #F8F8F8;
+}
+
+table.sourceTable td.stSourceCode {
+	width:100%;
+}
+
+table.sourceTable td.stSourceCode {
+	top:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+table.sourceTable td.stSourceCode pre {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	top:0px;
+	white-space: pre-wrap; /* CSS2.1 compliant */
+	font-family: "Consolas", courier, "Courier New", monospace;
+	font-size:10pt;
+}
+
+table.sourceTable tr.even {
+	background-color: #F8F8F8;
+}
+table.sourceTable tr.odd {
+	background-color: #EEEEEE;
+}
+table.sourceTable tr.hasRun {
+	background-color: #A8E8A8;
+}
+
+table.sourceTable tr.hasChangedDOM {
+	background-color: #E8E8A8;
+}
+
+ul#tabslist li.hasRun {
+	background-color: #A8E8A8;
+}
+
+ul#tabslist li.hasChangedDOM {
+	background-color: #E8E8A8;
+}
+
+body {
+	margin: 0px;
+}
+ul.dom_tree  {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	font-family: "Consolas", courier, "Courier New", monospace;
+	font-size:11pt;
+	background-color: #F8F8F8;
+}
+ul.dom_tree li {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	line-height:14px;
+	background-image: url(images/more_to_come.gif);
+	background-position: top left;
+	background-repeat: repeat-y;
+}
+ul.dom_tree .liLastChild {
+	background-image: url(images/empty.gif);
+}
+ul.dom_tree .liBefore {
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	display:inline;
+}
+ul.dom_tree li .plus_minus {
+	margin-left:-18px;
+	padding:0px 0px 0px 0px;
+	border:0px;
+}
+ul.dom_tree a  {
+	text-decoration: none;
+	color:navy;
+}
+ul.dom_tree li.highlighted {
+	background-color: #E8E8A8;
+}

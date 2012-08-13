@@ -1,0 +1,7 @@
+#FireCrystal_StatusIcon {
+    list-style-image: url(chrome://firecrystal/content/toolbarImages/not_recording.png);
+}
+
+#FireCrystal_StatusIcon[fcs="on"] {
+    list-style-image: url(chrome://firecrystal/content/toolbarImages/recording.png);
+}

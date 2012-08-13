@@ -1,0 +1,20 @@
+body {
+}
+div.ui_event_title {
+	font: bold 32px arial;
+	color: navy;
+}
+div.initial_dom_title {
+	font: bold 32px arial;
+	color: goldenrod;
+}
+div.dom_event_title {
+	font: bold 32px arial;
+	color: goldenrod;
+}
+span.category_text {
+	font: bold 18px arial;
+}
+span.value_text {
+	font: 18px arial;
+}

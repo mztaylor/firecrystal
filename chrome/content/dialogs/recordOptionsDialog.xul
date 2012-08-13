@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog title="FireCrystal"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		ondialogaccept = "onDone(true)"
+		ondialogcancel = "onDone(false)"
+		defaultButton = "accept"
+		buttonlabelaccept="Start"
+		>
+  <vbox>
+    <groupbox align="start">
+
+      <caption label="Recording Options"/>
+      <radiogroup>
+        <vbox>
+			<checkbox id="reload" accesskey="l" label="Reload &amp; record starting at page load" checked="false"/>
+        </vbox>
+      </radiogroup>
+    </groupbox>
+  </vbox>
+	<script>
+		var retVals = window.arguments[0];
+		var reload = document.getElementById("reload");
+		
+		reload.checked = retVals.reload;
+
+		function onDone(goThrough) {
+			retVals.canceled=!goThrough;
+			retVals.reload = reload.checked;
+
+			window.close();
+		}
+	</script>
+</dialog>

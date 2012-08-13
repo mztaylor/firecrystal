@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<link type="text/css" href="replayWindow.css" rel="StyleSheet" />
+		<!--script type="text/javascript" src="replayWindow.js"></script-->
+	</head>
+	<body>
+		<table width="100%">
+			<tbody>
+				<tr>
+					<td colspan="3"><iframe id="replayView" src="replayView.html"></iframe></td>
+				</tr>
+				<tr><td colspan="3"><div id="divider" /></td></tr>
+				<tr id="timeline">
+					<td id="timeline_rail" tyle="width: 100%;">
+						<div id="slider" style="width:100%;">
+							<div id="rail">
+								<div id="handle"></div>
+							</div>
+						</div>
+					</td>
+					<td><div id="timeline_divider"></div></td>
+					<td id="timeline_controls"><a id="first" href="javascript:void(0);"><img src="images/timeline/media-skip-backward.png" /></a><a id="previous" href="javascript:void(0)"><img src="images/timeline/media-seek-backward.png" /></a><a id="play" href="javascript:void(0)"><img src="images/timeline/media-playback-start.png" /></a><a id="next" href="javascript:void(0)"><img src="images/timeline/media-seek-forward.png" /></a><a id="last" href="javascript:void(0)"><img src="images/timeline/media-skip-forward.png" /></a></td>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="callout_div">
+			<table id="callout">
+				<tr><td class="top_left" /><td class="top" /><td class="top_right" /></tr>
+				<tr><td class="left" /><td  class="center"><iframe id="callout_iframe" src="blank_page.html"></iframe></td><td class="right" /></tr>
+				<tr><td class="bottom_left" /><td class="bottom"><div class="dongle" /></td><td class="bottom_right" /></tr>
+			</table>
+		</div>
+	</body>
+</html>

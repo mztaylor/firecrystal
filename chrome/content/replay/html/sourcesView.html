@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Stephen Oney" />
+		<link type="text/css" href="sourcesView.css" rel="StyleSheet" />
+		<script type="text/javascript" src="sourcesView.js"></script>
+	</head>
+	<body>
+		<table>
+			<tr id="sourceListTR"><td>
+			<ul id="filelist">
+				<li><a href="javascript:void(0)" id="html">Initial DOM</a></li>
+				<li><a href="javascript:void(0)" 
+					onmouseover="mopen('js_menu')" 
+					onmouseout="mclosetime()" id="js_menu_title">Javascript&nbsp;(0)</a>
+					<div id="js_menu"
+						onmouseover="mcancelclosetime()" 
+						onmouseout="mclosetime()"><a href="javascript:void(0)" id="js_file">Javascript File</a></div>
+				</li>
+				<li><a href="javascript:void(0)" 
+					onmouseover="mopen('css_menu')" 
+					onmouseout="mclosetime()" id="css_menu_title">CSS&nbsp;(0)</a>
+					<div id="css_menu" 
+						onmouseover="mcancelclosetime()" 
+						onmouseout="mclosetime()"><a href="javascript:void(0)" id="css_file">CSS File</a></div>
+				</li>
+			</ul></td></tr>
+			<tr><td><div id="divider"></div></td></tr>
+			<tr><td><div id="fileName"></div></td></tr>
+			<tr id="sourceCodeTR"><td><iframe id="sourceCodeView" src="sourceCodeView.html"></iframe></td></tr>
+			</table>
+	</body>
+</html>

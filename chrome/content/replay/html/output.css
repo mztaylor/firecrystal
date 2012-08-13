@@ -1,0 +1,117 @@
+body {
+	margin:0px;
+	background-image: url('images/outputBackground.png');
+}
+table.output tr.center td.middle iframe {
+	border:none;
+}
+
+table {
+	border-width:0px;
+	border-width: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	border-style: none none none none;
+	border-color: gray gray gray gray;
+	border-collapse: separate;
+}
+
+table.output tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+table.output tr td {
+	padding: 0px;
+	margin:0px;
+}
+
+table.output tr.top td.left div {
+	width: 10px;
+	height: 10px;
+}
+table.output tr.top td.middle div {
+	height: 10px;
+}
+table.output tr.top td.right div {
+	width: 10px;
+	height: 10px;
+}
+table.output tr.center td.left div {
+	width: 10px;
+}
+table.output tr.center td.right div {
+	width: 10px;
+}
+table.output tr.bottom td.left div {
+	width: 10px;
+	height: 10px;
+}
+table.output tr.bottom td.middle div {
+	height: 10px;
+}
+table.output tr.bottom td.right div {
+	width: 10px;
+	height: 10px;
+}
+
+table.output tr.top td.left {
+	background-image: url('images/output/top_left.png');
+	background-repeat: no-repeat;
+}
+table.output tr.top td.middle {
+	background-image: url('images/output/top.png');
+	background-repeat: repeat-x;
+}
+table.output tr.top td.right {
+	background-image: url('images/output/top_right.png');
+	background-repeat: no-repeat;
+}
+table.output tr.center td.left {
+	background-image: url('images/output/left.png');
+	background-repeat: repeat-y;
+}
+table.output tr.center td.right {
+	background-image: url('images/output/right.png');
+	background-repeat: repeat-y;
+}
+table.output tr.bottom td.left {
+	background-image: url('images/output/bottom_left.png');
+	background-repeat: no-repeat;
+}
+table.output tr.bottom td.middle {
+	background-image: url('images/output/bottom.png');
+	background-repeat: repeat-x;
+}
+table.output tr.bottom td.right {
+	background-image: url('images/output/bottom_right.png');
+	background-repeat: no-repeat;
+}
+table.output tr.header {
+	text-align: left;
+
+}
+table.output tr.header a {
+	color: #9FB4CC;
+	font: bold 14px arial;
+}
+table.output tr.header a:hover {
+	color: #33332D;
+}
+
+table.output tr.header a div {
+	display:block;
+	width: 100%;
+	background-color: black;
+	-moz-opacity: 0.628;
+}
+table.output tr.header a:hover div {
+	background-color: #9FB4CC;
+	-moz-opacity: 0.628;
+}
+table.output tr.header a.activated div {
+	background-color: #B30001;
+	-moz-opacity: 1.0;
+}
+table.output tr.header a.activated:hover div {
+	-moz-opacity: 0.7;
+}
