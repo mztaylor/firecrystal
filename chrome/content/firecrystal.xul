@@ -4,6 +4,10 @@
 <overlay id="sample" 
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<script type="application/x-javascript" src="chrome://firecrystal/content/firecrystal.js" />
+	<!-- dropdown menu -->
+			<menupopup id="menu_ToolsPopup"> 
+			<menuitem label="Launch Firecrystal" key="link-target-finder-run-key" oncommand="FireCrystal.onToolbarIconClick();"/> 
+		</menupopup>
 	<statusbar id="status-bar">
         <statusbarpanel id="FireCrystal_StatusBar" onmousedown="FireCrystal.onToolbarIconClick();">
             <image id="FireCrystal_StatusIcon" tooltiptext="FireCrystal"/>
