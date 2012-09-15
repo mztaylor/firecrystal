@@ -1,4 +1,5 @@
-## Firecrystal
+Firecrystal
+===========
 
 FireCrystal is a visual debugger for Firefox. Users can record an interaction with a web page and replay that interaction along with the relevant code.
 
@@ -8,13 +9,17 @@ OS X: zip -r FireCrystal.xpi FireCrystal.p* README.md chrome* install.rdf
 
 Firefox > Window > Add On.. > Install Add-On from File > select xpi, install and restart
 
-## Development
-Testing the development environment at https://builder.addons.mozilla.org/
+## Using the plugin
+- TBW
 
-## Recording
-
+## Issues
+- Recording icon does not refresh properly
+- Playback is not clear
 
 ## License
-Firecrystal was developed by the Stephen Oney (http://from.so) and is distributed under a MIT license on google code (https://code.google.com/p/firecrystal/)
+Firecrystal is distributed under a MIT license on google code (https://code.google.com/p/firecrystal/)
 
+## Credits
+Firecrystal was developed by Stephen Oney (http://www.stephenoney.com/firecrystal.php).  This is a git fork of the code currently available at 
+https://code.google.com/p/firecrystal/
 
